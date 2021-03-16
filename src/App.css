@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+button {
+  background-color: rgb(100, 104, 103);
+}
+.Contador{
+ font-size: 9px;
+}
