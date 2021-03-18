@@ -16,14 +16,15 @@ export const Counter = ({init, stock, onAdd}) => {
     }
     return (
         <div className= "Contador">
-            <button onClick={ handleApp }>+1</button>
-            <button onClick={ handleSubtract }>-1</button>
             <form onSubmit={ e => onAdd(e, counter) }>
                 {/* <h2>{couter}</h2> */}
                 <input value={ counter}/>
                 
                 <button type='submit'>Add</button>
             </form>
+            
+            <button onClick={ handleApp }>+1</button>
+            <button onClick={ handleSubtract }>-1</button>
                 
         </div>
     )

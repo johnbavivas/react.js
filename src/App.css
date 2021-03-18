@@ -37,8 +37,13 @@
   }
 }
 button {
-  background-color: rgb(100, 104, 103);
+  background-color: rgb(132, 136, 135);
+  padding: 5px;
+  margin: 1px;
+  border-radius: 10%;
+  color: rgb(3, 2, 5);
 }
 .Contador{
- font-size: 9px;
+ font-size: 7px;
+ 
 }
